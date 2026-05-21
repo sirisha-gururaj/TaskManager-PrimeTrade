@@ -1,11 +1,8 @@
-from motor.motor_asyncio import AsyncIOMotorClient
-from dotenv import load_dotenv
 import os
+from pymongo import MongoClient
 
-load_dotenv()
+MONGO_URL = os.getenv("MONGO_URL")
 
-DATABASE_URL = os.getenv("DATABASE_URL")
+client = MongoClient(MONGO_URL)
 
-client = AsyncIOMotorClient(DATABASE_URL)
-
-database = client.primetrade_db
+database = client["primetrade_db"]
