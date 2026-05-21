@@ -242,22 +242,6 @@ MongoDB Atlas
 
 ---
 
-# Submission Links
-
-## GitHub Repository
-(Add your GitHub repository link here)
-
-## Frontend Deployment
-https://primetrade-frontend-8kei.onrender.com/
-
-## Backend Deployment
-https://primetrade-backend-mtdd.onrender.com/
-
-## Swagger Documentation
-https://primetrade-backend-mtdd.onrender.com/docs
-
----
-
 # Final Status
 
 The project successfully implements:
